@@ -1,7 +1,7 @@
 {
   "name": "hello-world-react",
   "description": "An OpenComponent that contains a React component",
-  "version": "1.0.2",
+  "version": "1.0.3",
    "oc": {
     "files": {
       "data": "server.js",
