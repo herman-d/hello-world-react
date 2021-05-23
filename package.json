@@ -1,22 +1,26 @@
 {
   "name": "hello-world-react",
   "description": "An OpenComponent that contains a React component",
-  "version": "1.0.3",
-   "oc": {
+  "version": "1.0.7",
+  "oc": {
     "files": {
       "data": "server.js",
       "template": {
-        "src": "template.jade",
-        "type": "jade"
+        "src": "app.js",
+        "type": "oc-template-react"
       }
     },
     "parameters": {
       "name": {
-        "type": "string",
+        "default": "World",
+        "description": "Your name",
+        "example": "Jane Doe",
         "mandatory": false,
-        "example": "John Doe",
-        "description": "Your name"
+        "type": "string"
       }
     }
+  },
+  "devDependencies": {
+    "oc-template-react-compiler": "5.2.0"
   }
 }
